@@ -73,3 +73,39 @@ body{background:#f8fafc;color:#142238}
   .nav-link:hover,.nav-link.active{color:#0369a1}
   .site-header.scrolled .nav-link{color:#142238}
 }
+
+
+/* NUKES LIGHT THEME — final overrides (2026-10-29).
+   Force all content sections/cards onto the light palette; hero/conclusion stay intentionally dark for contrast. */
+:root{color-scheme:light;--ink:#142238;--paper:#f8fafc;--muted:#64748b;--line:#dbe4ef;--accent:#0284c7;--dark:#10243d}
+body{background:#f8fafc!important;color:#142238!important}
+main .section,main .members-section,main .documentation-section{background:#fff!important;color:#142238!important}
+main .activity-section,main .product-section{background:#f1f6fb!important;color:#142238!important}
+.section-heading h2,.section-heading h2 em,.leader-info h3,.member-info h3,.day-card h3,.project-title-row h3{color:#142238!important}
+.heading-note,.member-bio,.role,.section-heading .heading-note{color:#64748b!important}
+.subsection-label{color:#64748b!important;border-color:#dbe4ef!important}
+.leader-card,.member-card,.day-card,.project-copy{background:#fff!important;color:#142238!important;border-color:#d7e1ed!important}
+.day-card p,.project-copy>p{color:#52647a!important}
+.day-number,.project-number{color:#64748b!important}
+.day-tags span,.tech{background:#f8fafc!important;color:#52647a!important;border-color:#dbe4ef!important}
+.social-link{color:#142238!important;border-color:#dbe4ef!important}
+.social-link:hover{background:#0284c7!important;color:#fff!important}
+.days-grid{border-color:#d7e1ed!important}
+.project-window,.window-bar{background:#fff!important;color:#64748b!important;border-color:#dbe4ef!important}
+.window-dots i{background:#cbd5e1!important}
+.project-outro{border-color:#dbe4ef!important}
+.project-outro>span{color:#64748b!important}
+.back-top{color:#0369a1!important}
+.site-footer{background:#eef3f8!important;color:#142238!important}
+.footer-main>p,.footer-top{color:#52647a!important}
+.footer-bottom{border-color:#d7e1ed!important;color:#64748b!important}
+.footer-brand .brand-mark{border-color:#94a3b8!important}
+.site-header.scrolled{background:rgba(248,250,252,.96)!important;color:#142238!important;box-shadow:0 8px 28px rgba(15,23,42,.08)}
+.site-header.scrolled .nav-link,.site-header.scrolled .nav-link.active,.site-header.scrolled .nav-link:hover{color:#142238!important}
+@media(max-width:700px){
+ .nav-menu{background:rgba(248,250,252,.99)!important;box-shadow:-12px 0 32px rgba(15,23,42,.08)}
+ .nav-link,.site-header.scrolled .nav-link{color:#142238!important;border-color:#dbe4ef!important}
+ .nav-link:hover,.nav-link.active{color:#0369a1!important}
+ .menu-toggle{color:#fff}
+ .site-header.scrolled .menu-toggle{color:#142238}
+}
