@@ -130,3 +130,8 @@ $$('main section[id]').forEach(section => sectionObserver.observe(section));
 
 // Prevent blank project/social links from jumping to the top before you add URLs.
 $$('a[href=""]').forEach(link => link.addEventListener('click', e => e.preventDefault()));
+
+
+// Keep the footer year current automatically.
+const copyrightYear = $('#copyrightYear');
+if (copyrightYear) copyrightYear.textContent = new Date().getFullYear();
