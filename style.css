@@ -16,3 +16,6 @@ body{background:#08111f;color:#f1f5f9}
 .section-heading h2,.activity-card h3,.leader-info h3,.member-card h3,.project-copy h3{color:#f1f5f9}
 .section-heading p,.member-bio,.activity-card p,.project-copy p{color:#9aaabd}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}.hero-slide{transform:none}}
+
+/* Visibility safety: page content must never depend on IntersectionObserver to appear. */
+.reveal{opacity:1;transform:none}
